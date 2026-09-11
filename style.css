@@ -91,12 +91,26 @@ body{
 }
 
 .parametro-senha__botao{
- background-color: var(--cor-de-fundo);
- color: var(--branco);
- border: 2px solid var(--borda);
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    border: 2px solid var(--borda);
+    padding: 24px;
+    font-size: 24px;
+    cursor: pointer;
 }
 .parametro-senha__texto{
-
+    padding: 24px;
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    margin: 0;
+    font-size: 24px;
+}
+label{
+    font-size: 20px;
+}
+.checkbox{
+    width: 20px;
+    height: 24px;
 }
 
 @media screen and (min-width: 768px) {
